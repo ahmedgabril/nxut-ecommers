@@ -3,7 +3,7 @@ const isOpen = ref(false)
 </script>
 
 <template>
-  <div class="w-full relative ">
+  <div class="w-full relative  ">
 
   <UInput color="blue" variant="none"
   icon="i-heroicons-magnifying-glass-20-solid"
@@ -22,10 +22,10 @@ const isOpen = ref(false)
   
 
     <UModal v-model="isOpen" transition class=" fixed top-4 z-[600]   sm:min-w-lg " 
-       :ui="{ strategy:'override', base: 'fixed top-4  text-left rtl:text-right flex flex-col md:min-w-[750px] items-center justify-center z-[700]  ',}" >
+       :ui="{ strategy:'override', base: 'fixed top-4  text-left rtl:text-right flex flex-col md:min-w-[750px] items-center justify-center z-[700]   ',}" >
 
-        <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }"
-      class=" w-full "
+        <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800 ' }"
+      class=" w-full  dark:bg-gray-950   "
 
       >
         <template #header>
@@ -44,9 +44,9 @@ const isOpen = ref(false)
         
            
     
-           <div class="h-[300px] overflow-y-auto w-full    p-4 rounded-md
-      
-            scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thin  dark:scrollbar-thumb-slate-700 scrollbar-thumb-slate-300 ">    
+           <div class="max-h-[75svh]  overflow-y-auto w-full    p-4 rounded-md
+   
+          scrollbar-thin  dark:scrollbar-thumb-slate-700 scrollbar-thumb-slate-300 ">    
         
           <div class="text-red-600">
             
@@ -54,13 +54,64 @@ const isOpen = ref(false)
          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id aliquam magni rerum
           dolorem saepe alias! Id optio consectetur enim at. Dolorum enim consequatur 
           asperiores pariatur. Esse rerum eaque numquam aut.</div>
-
           <div class="text-red-600">
             
             
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id aliquam magni rerum
              dolorem saepe alias! Id optio consectetur enim at. Dolorum enim consequatur 
-             asperiores pariatur. Esse rerum eaque numquam aut.</div>      
+             asperiores pariatur. Esse rerum eaque numquam aut.</div> 
+             
+             <div class="text-red-600">
+            
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id aliquam magni rerum
+             dolorem saepe alias! Id optio consectetur enim at. Dolorum enim consequatur 
+             asperiores pariatur. Esse rerum eaque numquam aut.</div>   <div class="text-red-600">
+            
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id aliquam magni rerum
+             dolorem saepe alias! Id optio consectetur enim at. Dolorum enim consequatur 
+             asperiores pariatur. Esse rerum eaque numquam aut.</div>   <div class="text-red-600">
+            
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id aliquam magni rerum
+             dolorem saepe alias! Id optio consectetur enim at. Dolorum enim consequatur 
+             asperiores pariatur. Esse rerum eaque numquam aut.</div>   <div class="text-red-600">
+            
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id aliquam magni rerum
+             dolorem saepe alias! Id optio consectetur enim at. Dolorum enim consequatur 
+             asperiores pariatur. Esse rerum eaque numquam aut.</div>   <div class="text-red-600">
+            
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id aliquam magni rerum
+             dolorem saepe alias! Id optio consectetur enim at. Dolorum enim consequatur 
+             asperiores pariatur. Esse rerum eaque numquam aut.</div>   <div class="text-red-600">
+            
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id aliquam magni rerum
+             dolorem saepe alias! Id optio consectetur enim at. Dolorum enim consequatur 
+             asperiores pariatur. Esse rerum eaque numquam aut.</div>   <div class="text-red-600">
+            
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id aliquam magni rerum
+             dolorem saepe alias! Id optio consectetur enim at. Dolorum enim consequatur 
+             asperiores pariatur. Esse rerum eaque numquam aut.</div>   <div class="text-red-600">
+            
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id aliquam magni rerum
+             dolorem saepe alias! Id optio consectetur enim at. Dolorum enim consequatur 
+             asperiores pariatur. Esse rerum eaque numquam aut.</div>   <div class="text-red-600">
+            
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id aliquam magni rerum
+             dolorem saepe alias! Id optio consectetur enim at. Dolorum enim consequatur 
+             asperiores pariatur. Esse rerum eaque numquam aut.</div>   <div class="text-red-600">
+            
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id aliquam magni rerum
+             dolorem saepe alias! Id optio consectetur enim at. Dolorum enim consequatur 
+             asperiores pariatur. Esse rerum eaque numquam aut.</div>
             </div>
 
       </UCard>
@@ -71,11 +122,5 @@ const isOpen = ref(false)
 
 </template>
 <style >
-.scrollbar-thin::-webkit-scrollbar-thumb {
-    background-color: var(--scrollbar-thumb);
-    border-radius:100vh;
-    height: 40%;
-    cursor: pointer;
-}
 
   </style>

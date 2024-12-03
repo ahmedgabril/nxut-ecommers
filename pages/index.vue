@@ -2,7 +2,7 @@
 import Catogerycarousel from '~/components/catogerycarousel.vue';
 
 
-
+ 
 
 
 
@@ -10,7 +10,7 @@ import Catogerycarousel from '~/components/catogerycarousel.vue';
 </script>
 
 <template>
-<div class="  xs:pt-[138px] sm:pt-[138px] md:pt-[190px]  container mx-auto min-h-screen ">
+<div class="  xs:pt-[138px] sm:pt-[138px] md:pt-[190px]  container mx-auto min-h-svh    ">
 <!-- <Swapergallery/> -->
 
 <Maincarousel/>
@@ -18,6 +18,11 @@ import Catogerycarousel from '~/components/catogerycarousel.vue';
 
 <h1 class="my-4 font-extrabold text-2xl">Catogeries</h1>
 <Catogerycarousel/>
+
+
+
+<h2 class="my-4 font-extrabold text-2xl">Products</h2>
+<ProductsProductCard/>
 </div>
 </template>
 

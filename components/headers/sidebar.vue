@@ -25,8 +25,8 @@ const { isOpen,toggleSidebar } = useSidebar();
      </div>
     
      <div v-if="isOpen" class="fixed inset-0  bg-black bg-opacity-50 z-50 transition-opacity duration-300" @click="toggleSidebar" ></div>
-     <div :class="[ 'fixed top-0  right-0 h-full overflow-y-auto bg-gray-600 z-50 transition-all duration-300', isOpen ? 'xs:w-[250px] sm:w-[350px]  translate-x-0' : 'w-0 translate-x-full' ]" > 
-    <div class="header flex-col justify-around items-center bg-gray-900 p-4 text-center sidebar cursor-pointer"  @click="toggleSidebar">
+     <div :class="[ 'fixed top-0  right-0 h-full overflow-y-auto bg-gray-200 dark:bg-gray-950 z-50 transition-all duration-300', isOpen ? 'xs:w-[250px] sm:w-[350px]  translate-x-0' : 'w-0 translate-x-full' ]" > 
+    <div class="header flex-col justify-around items-center shadow-md bg-gray-50  dark:bg-gray-900 p-4 text-center sidebar cursor-pointer"  @click="toggleSidebar">
     <NuxtLink to="/">hello ahmed</NuxtLink>
     </div>
     <div class="body"></div>
